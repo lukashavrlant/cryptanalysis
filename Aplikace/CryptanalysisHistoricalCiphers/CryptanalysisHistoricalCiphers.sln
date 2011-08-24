@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptanalysisHistoricalCiphers", "CryptanalysisHistoricalCiphers\CryptanalysisHistoricalCiphers.csproj", "{A19A9D90-D4B7-4F24-B2A7-C09C7E6DF6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptanalysisCore", "CryptanalysisCore\CryptanalysisCore.csproj", "{836D8E42-AADB-411F-9085-9AA3566BB6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptanalysisGUI", "CryptanalysisGUI\CryptanalysisGUI.csproj", "{4159B4AC-36B5-4CC4-9A3F-954D76F125EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19A9D90-D4B7-4F24-B2A7-C09C7E6DF6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19A9D90-D4B7-4F24-B2A7-C09C7E6DF6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19A9D90-D4B7-4F24-B2A7-C09C7E6DF6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19A9D90-D4B7-4F24-B2A7-C09C7E6DF6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836D8E42-AADB-411F-9085-9AA3566BB6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836D8E42-AADB-411F-9085-9AA3566BB6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836D8E42-AADB-411F-9085-9AA3566BB6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836D8E42-AADB-411F-9085-9AA3566BB6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4159B4AC-36B5-4CC4-9A3F-954D76F125EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4159B4AC-36B5-4CC4-9A3F-954D76F125EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4159B4AC-36B5-4CC4-9A3F-954D76F125EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4159B4AC-36B5-4CC4-9A3F-954D76F125EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

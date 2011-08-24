@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{836D8E42-AADB-411F-9085-9AA3566BB6DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CryptanalysisCore</RootNamespace>
+    <AssemblyName>CryptanalysisCore</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExtensionMethods, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtensionMethods\ExtensionMethods\bin\Release\ExtensionMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Filters\SamePatternAttack.cs" />
+    <Compile Include="Filters\TopLetters.cs" />
+    <Compile Include="HelpMethods\Analyse.cs" />
+    <Compile Include="Ciphers\Caesar.cs" />
+    <Compile Include="Ciphers\Cipher.cs" />
+    <Compile Include="HelpMethods\Combinatorics.cs" />
+    <Compile Include="Structures\LettersCount.cs" />
+    <Compile Include="Structures\CrackResult.cs" />
+    <Compile Include="Filters\DictionaryAttack.cs" />
+    <Compile Include="Exceptions\CryptanalysisException.cs" />
+    <Compile Include="Exceptions\InvalidCipherKey.cs" />
+    <Compile Include="Exceptions\InvalidCiphertext.cs" />
+    <Compile Include="Exceptions\InvalidOpentext.cs" />
+    <Compile Include="Filters\KeyLength.cs" />
+    <Compile Include="Structures\LettersMatrix.cs" />
+    <Compile Include="HelpMethods\Maths.cs" />
+    <Compile Include="Structures\NearbyLetters.cs" />
+    <Compile Include="Filters\Spaces.cs" />
+    <Compile Include="Structures\Storage.cs" />
+    <Compile Include="Exceptions\InvalidCaesarKey.cs" />
+    <Compile Include="Exceptions\MatchNotFound.cs" />
+    <Compile Include="Structures\LangCharacteristic.cs" />
+    <Compile Include="Ciphers\Monoalphabetic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HelpMethods\Text.cs" />
+    <Compile Include="HelpMethods\TextAnalysis.cs" />
+    <Compile Include="Ciphers\Transposition.cs" />
+    <Compile Include="Cryptanalyse.cs" />
+    <Compile Include="Filters\WordsFilter.cs" />
+    <Compile Include="Filters\UniqueWords.cs" />
+    <Compile Include="Ciphers\Vigenere.cs" />
+    <Compile Include="Filters\WordsCompleter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

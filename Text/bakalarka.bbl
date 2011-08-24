@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{park}
+Bletchley Park. [Online].
+\newline\urlprefix\url{http://www.bletchleypark.org.uk/}
+
+\bibitem{turing}
+Hodges, A.: Alan Turing -- Home page. [Online].
+\newline\urlprefix\url{http://www.turing.org.uk/turing/}
+
+\bibitem{chip}
+Klíma, V.: Utajené komunikace - 2.díl : Tajné kódy, řeč a substituce.
+  \emph{časopis Chip}, červen 1994: s. 184--188.
+
+\bibitem{singh}
+Singh, S.: \emph{Kniha kódů a šifer}. Nakladatelství Dokořán, 2009, ISBN
+  978-80-7363-268-7.
+
+\bibitem{cryptography}
+Stinson, D.~R.: \emph{Cryptography: Theory and Practice (Third edition)}. CRC
+  Press, Inc, 2006, ISBN 978-1-58488-508-5.
+
+\bibitem{grafy}
+Večerka, A.: \emph{Grafy a grafové algoritmy}. UPOL, 2007.
+\newline\urlprefix\url{http://phoenix.inf.upol.cz/esf/ucebni/Grafy_a_grafove_a%
+lgoritmy.pdf}
+
+\bibitem{vondruska}
+Vondruška, P.: \emph{Kryptologie, šifrování a tajná písma}. Albatros,
+  2006, ISBN 978-80-00-01888-8.
+
+\bibitem{mono}
+Wikipedie: Monoalfabetická šifra --- {W}ikipedie{,} otevřená encyklopedie.
+  2010, [Online].
+\newline\urlprefix\url{http://cs.wikipedia.org/w/index.php?title=Monoalfabeti%
+c%6B%C3%A1_%C5%A1ifra&oldid=4959232}
+
+\bibitem{transen}
+Wikipedie: Transposition cipher --- {W}ikipedia{,} The Free Encyclopedia. 2010,
+  [Online].
+\newline\urlprefix\url{http://en.wikipedia.org/w/index.php?title=Transposition%
+_cipher&oldid=356226371}
+
+\bibitem{vige}
+Wikipedie: Vigenèrova šifra --- {W}ikipedie{,} otevřená encyklopedie. 2010,
+  [Online].
+\newline\urlprefix\url{http://cs.wikipedia.org/w/index.php?title=Vigen%C3%A8r%
+o%76a_%C5%A1ifra&oldid=5253539}
+
+\end{thebibliography}
